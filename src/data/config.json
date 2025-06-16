@@ -1,0 +1,30 @@
+{
+  "job": "Frontend Developer & Designer",
+  "name": "Amirreza Heydarzadeh",
+  "desc": "The traveler of this path, a web designer in Iran.",
+  "aboutDesc": "Hi iam amirrez ",
+  "email": "airrezaheydarzadeh007@email.com",
+  "status": "on",
+  "hireMeLink": "https://t.me/L_o_s_t_1",
+  "projects": [
+    {
+      "project-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
+      "project-name": "Benfolio",
+      "project-desc": "React + Tailwind Portfolio"
+    }
+  ],
+  "social": [
+    {
+      "icon": "FaInstagram",
+      "link": "https://instagram.com"
+    },
+    {
+      "icon": "FaGithub",
+      "link": "https://github.com"
+    },
+    {
+      "icon": "FaLinkedinIn",
+      "link": "https://linkedin.com"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "welcome": "Welcome",
+  "login": "Login",
+  "home": {
+    "profile": {
+      
+    },
+    "hero": {
+      "title": "Let's work together.",
+      "subtitle": "Creating user experience and visual appealing design",
+      "button": "Contact me"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "I am a front-end developer with passion for clean UI."
+    },
+    "services": {
+      "title": "What I Offer",
+      "cards": {
+        "design": "UI/UX Design",
+        "dev": "Front-end Development",
+        "seo": "SEO Optimization"
+      }
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "placeholder": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "message": "Write your message here..."
+      },
+      "submit": "Send Message"
+    }
+  },
+  "profile": {
+    "hero": {
+      "title": "Let's work together.",
+      "subtitle": "Creating user experience and visual appealing design",
+      "button": "Contact me"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "I am a front-end developer with passion for clean UI."
+    },
+    "services": {
+      "title": "What I Offer",
+      "cards": {
+        "design": "UI/UX Design",
+        "dev": "Front-end Development",
+        "seo": "SEO Optimization"
+      }
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "placeholder": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "message": "Write your message here..."
+      },
+      "submit": "Send Message"
+    }
+  },
+  "projects": {
+    "hero": {
+      "title": "Let's work together.",
+      "subtitle": "Creating user experience and visual appealing design",
+      "button": "Contact me"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "I am a front-end developer with passion for clean UI."
+    },
+    "services": {
+      "title": "What I Offer",
+      "cards": {
+        "design": "UI/UX Design",
+        "dev": "Front-end Development",
+        "seo": "SEO Optimization"
+      }
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "placeholder": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "message": "Write your message here..."
+      },
+      "submit": "Send Message"
+    }
+  },
+  "products": {
+    "hero": {
+      "title": "Let's work together.",
+      "subtitle": "Creating user experience and visual appealing design",
+      "button": "Contact me"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "I am a front-end developer with passion for clean UI."
+    },
+    "services": {
+      "title": "What I Offer",
+      "cards": {
+        "design": "UI/UX Design",
+        "dev": "Front-end Development",
+        "seo": "SEO Optimization"
+      }
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "placeholder": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "message": "Write your message here..."
+      },
+      "submit": "Send Message"
+    }
+  },
+  "page404": "404 Page Not Found"
+}
