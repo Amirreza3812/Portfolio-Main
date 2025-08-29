@@ -1,9 +1,5 @@
-import {
-  FaInstagram,
-  FaGithub,
-  FaLinkedinIn,
-} from "react-icons/fa6";
-import configData from "../data/config.json";
+import { FaInstagram, FaGithub, FaTelegram } from "react-icons/fa6";
+import configData from "../../public/config.json";
 
 export default function Social() {
   const socialLinks = configData.social;
@@ -21,7 +17,7 @@ export default function Social() {
               const iconMap = {
                 FaInstagram,
                 FaGithub,
-                FaLinkedinIn,
+                FaTelegram,
               };
               const IconComponent = iconMap[socialLink.icon];
 
@@ -30,6 +26,8 @@ export default function Social() {
                   key={index}
                   href={socialLink.link}
                   className="bg-white p-2 rounded-full duration-300 border-2 border-gray-100 hover:border-gray-200 drop-shadow-sm"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   {<IconComponent size={20} />}
                 </a>
