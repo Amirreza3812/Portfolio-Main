@@ -2,15 +2,14 @@ import { useState } from "react";
 import { getConfigData } from "../data/configReader";
 import { useQuery } from "@tanstack/react-query";
 import coverDefault from "../../public/FavIcon_portfolio.png";
+import { useTranslation } from "react-i18next";
 const fetchProjects = async () => {
-  const response = await fetch(
-    "https://amirreza-dev.info/api/projects"
-  );
-  console.log(response);
+  const response = await fetch("https://amirreza-dev.info/api/projects");
   return response.json();
 };
 
 export default function Home() {
+  const { t, i18n } = useTranslation();
   const configData = getConfigData();
   const projects = configData.projects;
   const [loading, isLoadig] = useState(false);
@@ -45,7 +44,7 @@ export default function Home() {
           <div className="flex items-center justify-between mb-5">
             <div className="font-medium text-lg flex items-center gap-x-2">
               <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
-              Projects
+              {t("Projects")}
             </div>
           </div>
           {/* Projects List */}

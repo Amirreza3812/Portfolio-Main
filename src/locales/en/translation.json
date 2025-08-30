@@ -1,120 +1,55 @@
 {
-  "welcome": "Welcome",
-  "login": "Login",
-  "home": {
-    "profile": {
-      
-    },
-    "hero": {
-      "title": "Let's work together.",
-      "subtitle": "Creating user experience and visual appealing design",
-      "button": "Contact me"
-    },
-    "about": {
-      "title": "About Me",
-      "description": "I am a front-end developer with passion for clean UI."
-    },
-    "services": {
-      "title": "What I Offer",
-      "cards": {
-        "design": "UI/UX Design",
-        "dev": "Front-end Development",
-        "seo": "SEO Optimization"
-      }
-    },
-    "contact": {
-      "title": "Get in Touch",
-      "placeholder": {
-        "name": "Your Name",
-        "email": "Your Email",
-        "message": "Write your message here..."
-      },
-      "submit": "Send Message"
+  "MainPage": {
+    "Title": "Frontend Developer & Designer",
+    "Name": "I'm Amirreza Heydarzadeh",
+    "Text": "The traveler of this path, a web designer in Iran.",
+    "Hire": "avaılable for work"
+  },
+  "About": {
+    "about": "About",
+    "mainText": "Hi! I'm a UI/UX designer and front-end developer with a passion for creating thoughtful, user-centered digital experiences. My design process begins in Figma, where I focus on building clean, intuitive interfaces. On the development side, I work with React and Angular, and I’m currently diving deeper into Next.js to explore server-side rendering and advanced front-end capabilities. While front-end is my main focus, I’ve also built and deployed back-end features using Express.js, mainly to bring my own projects to life. I’m currently learning more about networking fundamentals to deepen my understanding of how the web really works. I’m not attached to any particular framework or technology — for me, the best tool is the one that fits the problem. I'm always curious, always learning, and always striving to improve my skills across the stack — including future goals like exploring 3D web design. Beyond buildingprojects, I also work as a mentor, helping others learn front-end development and guiding them through the challenges of their learning journey. My goal? To keep growing, keep building, and keep creating products that are both beautiful and functional.",
+    "me": {
+      "name": "It’s me, Amirreza Heydarzadeh."
     }
   },
-  "profile": {
-    "hero": {
-      "title": "Let's work together.",
-      "subtitle": "Creating user experience and visual appealing design",
-      "button": "Contact me"
-    },
-    "about": {
-      "title": "About Me",
-      "description": "I am a front-end developer with passion for clean UI."
-    },
-    "services": {
-      "title": "What I Offer",
-      "cards": {
-        "design": "UI/UX Design",
-        "dev": "Front-end Development",
-        "seo": "SEO Optimization"
-      }
-    },
-    "contact": {
-      "title": "Get in Touch",
-      "placeholder": {
-        "name": "Your Name",
-        "email": "Your Email",
-        "message": "Write your message here..."
-      },
-      "submit": "Send Message"
-    }
+  "Footer": {
+    "Fallow": "Fallow Me"
   },
-  "projects": {
-    "hero": {
-      "title": "Let's work together.",
-      "subtitle": "Creating user experience and visual appealing design",
-      "button": "Contact me"
-    },
-    "about": {
-      "title": "About Me",
-      "description": "I am a front-end developer with passion for clean UI."
-    },
-    "services": {
-      "title": "What I Offer",
-      "cards": {
-        "design": "UI/UX Design",
-        "dev": "Front-end Development",
-        "seo": "SEO Optimization"
-      }
-    },
-    "contact": {
-      "title": "Get in Touch",
-      "placeholder": {
-        "name": "Your Name",
-        "email": "Your Email",
-        "message": "Write your message here..."
-      },
-      "submit": "Send Message"
-    }
+  "workTogether": {
+    "header": "Let's work together.",
+    "text": "Your product deserves more than just code — let’s craft an experience.",
+    "mail": "Copy Email",
+    "hire": "Hire me"
   },
-  "products": {
-    "hero": {
-      "title": "Let's work together.",
-      "subtitle": "Creating user experience and visual appealing design",
-      "button": "Contact me"
+  "page404": "404 Page Not Found",
+  "Projects": "Projects",
+  "seeAll": "View All",
+  "availble": "on",
+  "ConfigData": {
+    "email": "airrezaheydarzadeh007@gmail.com",
+    "CompleteCopy": "Copied",
+    "NotCompleteCopy": "Copy Error",
+    "hireMeLink": "https://t.me/L_o_s_t_1",
+    "DefaultProject": {
+      "title": "3D App Using Spline",
+      "description": "React + Tailwind + Spline",
+      "githubLink": "https://github.com/Amirreza3812/3D-Spline-Web.git",
+      "projectLink": "",
+      "imageUrl": "/FavIcon_portfolio.png"
     },
-    "about": {
-      "title": "About Me",
-      "description": "I am a front-end developer with passion for clean UI."
-    },
-    "services": {
-      "title": "What I Offer",
-      "cards": {
-        "design": "UI/UX Design",
-        "dev": "Front-end Development",
-        "seo": "SEO Optimization"
-      }
-    },
-    "contact": {
-      "title": "Get in Touch",
-      "placeholder": {
-        "name": "Your Name",
-        "email": "Your Email",
-        "message": "Write your message here..."
+    "social": [
+      {
+        "icon": "FaInstagram",
+        "link": "https://www.instagram.com/dev.amir.reza/"
       },
-      "submit": "Send Message"
-    }
-  },
-  "page404": "404 Page Not Found"
+      {
+        "icon": "FaGithub",
+        "link": "https://github.com/Amirreza3812"
+      },
+      {
+        "icon": "FaTelegram",
+        "link": "https://t.me/Code_Snap_Tm"
+      }
+    ]
+  }
 }

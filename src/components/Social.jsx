@@ -1,8 +1,10 @@
 import { FaInstagram, FaGithub, FaTelegram } from "react-icons/fa6";
 import configData from "../../public/config.json";
+import { useTranslation } from "react-i18next";
 
 export default function Social() {
   const socialLinks = configData.social;
+  const { t, i18n } = useTranslation();
 
   return (
     <>
@@ -10,7 +12,7 @@ export default function Social() {
         <div className="flex items-center justify-between px-7 py-7 bg-gray-100 rounded-lg">
           <div className="font-medium text-lg flex items-center gap-x-2">
             <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
-            Follow Me
+            {t("Footer.Fallow")}
           </div>
           <div className="flex gap-x-1">
             {socialLinks.map((socialLink, index) => {
