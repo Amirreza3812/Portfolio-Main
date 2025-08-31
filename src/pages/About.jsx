@@ -5,14 +5,10 @@ import { useTranslation } from "react-i18next";
 export default function About() {
   const { t, i18n } = useTranslation();
 
+
   return (
     <>
       <div className="px-7 py-7">
-        <div style={{ marginTop: 16 }}>
-          <button onClick={() => i18n.changeLanguage("fa")}>FA</button>
-          <button onClick={() => i18n.changeLanguage("en")}>EN</button>
-        </div>
-
         <h1 className="flex items-center gap-x-2 text-lg font-medium">
           <div className="w-4 h-2 bg-gray-400 rounded-full"></div>
           {t(`About.about`)}

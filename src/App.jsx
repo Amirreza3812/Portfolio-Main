@@ -1,14 +1,22 @@
 import "./App.css";
+import "./fonts.css";
 import Navbar from "./components/Navbar";
-import { getConfigData } from "./data/configReader";
 import Social from "./components/Social";
 import Footer from "./components/Footer";
 import SiteRoutes from "./routes/SiteRoutes";
 import { LanguageProvider } from "./LanguageContext";
 import "./i18n";
+import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 function App() {
-  const configData = getConfigData();
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    document.documentElement.lang = i18n.language;
+    document.body.classList.remove("fa", "en");
+    document.body.classList.add(i18n.language);
+  }, [i18n.language]);
 
   return (
     <LanguageProvider>

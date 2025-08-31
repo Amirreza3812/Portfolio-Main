@@ -1,0 +1,19 @@
+/* IranSans */
+@font-face {
+  font-family: "IRANSans";
+  src: url("../public/fonts/iransans/IRANSansWeb.woff2") format("woff2"),
+    url("../public/fonts/iransans/IRANSansWeb.woff") format("woff"),
+    url("../public/fonts/iransans/IRANSansWeb.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* فونت دیفالت بر اساس زبان */
+body.en {
+  font-family: "Poppins", system-ui, sans-serif !important;
+}
+
+body.fa {
+  font-family: "IRANSans", sans-serif !important;
+}
